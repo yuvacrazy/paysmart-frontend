@@ -1,30 +1,16 @@
-# ----------------------------
-# Streamlit Frontend Core
-# ----------------------------
-streamlit==1.39.0
+# Core framework
+streamlit
+requests
 
-# ----------------------------
-# API Communication
-# ----------------------------
-requests==2.31.0
+# Data & math
+pandas
+numpy
 
-# ----------------------------
-# Data & Analytics
-# ----------------------------
-pandas==2.2.2
-numpy==1.26.4
-
-# ----------------------------
 # Visualization
-# ----------------------------
-plotly==5.24.0
+plotly
 
-# ----------------------------
-# PDF Reports
-# ----------------------------
-fpdf2==2.7.8
+# PDF generation
+fpdf2
 
-# ----------------------------
-# Environment / Safety
-# ----------------------------
-python-dotenv==1.0.1
+# Optional (for environment & safety)
+python-dotenv
