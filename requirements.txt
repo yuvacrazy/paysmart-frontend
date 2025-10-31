@@ -1,15 +1,15 @@
 # ----------------------------
-# Core Web Framework
+# Streamlit Frontend Core
 # ----------------------------
-streamlit==1.38.0
+streamlit==1.39.0
 
 # ----------------------------
 # API Communication
 # ----------------------------
-requests==2.32.3
+requests==2.31.0
 
 # ----------------------------
-# Data & Math
+# Data & Analytics
 # ----------------------------
 pandas==2.2.2
 numpy==1.26.4
@@ -20,13 +20,11 @@ numpy==1.26.4
 plotly==5.24.0
 
 # ----------------------------
-# Report Generation
+# PDF Reports
 # ----------------------------
-fpdf==1.7.2
+fpdf2==2.7.8
 
 # ----------------------------
-# Optional (for safety in Render envs)
+# Environment / Safety
 # ----------------------------
 python-dotenv==1.0.1
-
-
