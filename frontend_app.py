@@ -194,7 +194,7 @@ with left:
                     pdf = FPDF()
                     pdf.add_page()
                     pdf.set_font("Arial", "B", 16)
-                    pdf.cell(0, 10, "SmartPay — Salary Prediction Report", ln=True, align="C")
+                    pdf.cell(0, 10, "SmartPay-Salary Prediction Report", ln=True, align="C")
                     pdf.ln(6)
                     pdf.set_font("Arial", size=12)
                     pdf.cell(0, 8, f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}", ln=True)
@@ -303,3 +303,4 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
+
